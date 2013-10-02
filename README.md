@@ -27,4 +27,4 @@ This is a working example of running Angular E2E tests using [Cucumber.js](https
 This work was based largely on a combination of the following two repos:
 
 - [angular-cucumber-example](https://github.com/dskang/angular-cucumber-example)
-- [node-bdd-example](https://github.com/devpaul/dskang/node-bdd-example)
+- [node-bdd-example](https://github.com/devpaul/node-bdd-example)
