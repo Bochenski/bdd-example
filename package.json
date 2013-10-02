@@ -1,0 +1,41 @@
+{
+  "name": "bdd-example",
+  "version": "0.0.1",
+  "description": "bdd example using cucumber, angular, protractor, grunt and saucelabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com:Bochenski/bdd-example.git"
+  },
+  "keywords": [
+    "cucumber",
+    "protractor",
+    "angular",
+    "grunt",
+    "saucelabs"
+  ],
+  "author": "David Bochenski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bochenski/bdd-example/issues"
+  },
+  "devDependencies": {
+    "grunt-cucumber": "~0.2.3",
+    "grunt-env": "~0.4.0",
+    "cucumber": "git+https://github.com/devpaul/cucumber-js.git",
+    "grunt": "~0.4.1",
+    "protractor": "~0.10.0",
+    "selenium-webdriver": "~2.35.2",
+    "bower": "~1.2.7",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-copy": "~0.4.1",
+    "connect": "~2.9.0",
+    "grunt-gint": "~0.3.0",
+    "grunt-contrib-connect": "~0.5.0"
+  }
+}

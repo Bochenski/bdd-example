@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+  <body ng-controller="mainController">
+    <input type="text" ng-model="name">
+    <p>Hi, my name is <span>{{name}}</span>!</p>
+    <script src="/js/scripts.min.js"></script>
+  </body>
+</html>
