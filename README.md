@@ -10,8 +10,9 @@ This is a working example of running Angular E2E tests using [Cucumber.js](https
         npm install
         bower install
 
+2. Enter your saucelabs credentials in the .env file
 
-2. Run the cucumber tests
+3. Run the cucumber tests
 
         grunt test
 
