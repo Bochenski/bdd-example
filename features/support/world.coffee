@@ -21,6 +21,7 @@ worldDefinition = () ->
     browserName: 'Chrome'
     platform: 'Windows 7'
     'record-video': true
+    'tunnel-identifier': process.env.DRONE_BUILD_NUMBER
 
   @BeforeFeatures (event, callback) ->
     driver = new webdriver.Builder().
