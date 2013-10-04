@@ -153,6 +153,7 @@ module.exports = (grunt) ->
   ]
 
   grunt.registerTask 'test', [
+    'build'
     'connect:test'
     'cucumberjs'
   ]
