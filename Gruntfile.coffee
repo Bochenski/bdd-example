@@ -5,10 +5,6 @@ module.exports = (grunt) ->
   grunt.initConfig
     pkg: grunt.file.readJSON('package.json')
 
-    env:
-      test:
-        src: '.env'
-
     clean:
       reset:
         src: ['bin']
@@ -138,7 +134,6 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-requirejs'
   grunt.loadNpmTasks 'grunt-contrib-copy'
   grunt.loadNpmTasks 'grunt-contrib-connect'
-  grunt.loadNpmTasks 'grunt-env'
   grunt.loadNpmTasks 'grunt-cucumber'
   grunt.loadNpmTasks 'grunt-gint'
 
@@ -158,7 +153,6 @@ module.exports = (grunt) ->
   ]
 
   grunt.registerTask 'test', [
-    'env:test'
     'connect:test'
     'cucumberjs'
   ]
